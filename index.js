@@ -97,7 +97,6 @@ function createFile(path, filename, i, count, children, url){
 	var stream = request.get(url)
 	.on('error', function(err) { 
 		console.log(err);
-		return("Error");
     })
 	.on('response', function(response){
 		//checking type of the file
