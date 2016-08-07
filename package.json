@@ -1,0 +1,36 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "content-disposition": "^0.5.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "fs-extra": "^0.30.0",
+    "http-request": "^0.7.0",
+    "mocha": "^3.0.1",
+    "request": "^2.74.0"
+  },
+  "description": "Project Guidelines:",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muktika/Assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muktika/Assignment/issues"
+  },
+  "homepage": "https://github.com/muktika/Assignment#readme"
+}

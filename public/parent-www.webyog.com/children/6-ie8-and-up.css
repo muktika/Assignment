@@ -1,0 +1,14 @@
+/* 
+    Document   : ie8 and above
+    Created on : Nov 26, 2013, 3:45:00 PM
+    Author     : sushant prasad
+    Description: Purpose of the stylesheet follows.
+*/
+
+.wy-banner-small-text {
+    font-size: 21px;
+}
+
+.countdown-heading {
+    margin-left: -1px;
+}

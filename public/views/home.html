@@ -1,0 +1,22 @@
+<div class="container-fluid page">
+  <br/><br/><br/><br/>
+  <form name="urlForm">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h4> Enter url<span style="color: red;">*</span>: </h4>
+      <input class="form-control sizeBox" type="url" name="url" ng-model="link" required></input>
+      <span style="color:red;" ng-if="urlForm.url.$touched && urlForm.url.$invalid">Please Enter Value</span><br/>
+      <button class="btn btn-default" type="submit" ng-click="urlForm.$valid && uploadUrl(link)">Submit</button>
+    </div>
+    <br/>
+  </form>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="showResult==1">
+  	<h4>Url Structure is as follows:</h4>
+  	<ul>
+	  	<li>{{link}}</li>
+	  	<ul>
+	  		<li ng-repeat="row in child">{{row.url}}</li>
+	  	</ul>
+	</ul>
+  </div>
+</div>
+
