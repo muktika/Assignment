@@ -115,7 +115,7 @@ function createFile(path, filename, i, count, children, url){
 
     })
     .pipe(file)
-    .on('finish', () =>{
+    .on('finish', function(){
 		if(i == -1 && push == 1){
 			i++;
 			path = path + "/children";
